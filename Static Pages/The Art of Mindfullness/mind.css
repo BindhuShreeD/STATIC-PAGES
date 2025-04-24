@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(Picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Quicksand', sans-serif;
+    color: #181717;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(241, 139, 210, 0.4);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .overlay h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 1.2em;
+  }
+  
+  .content {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: #fce460;
+    margin-bottom: 15px;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .benefits-grid div {
+    background-color: #d3f8f2;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .benefits-grid div:hover {
+    background-color: #e989b6;
+  }
+  
+  .cta {
+    text-align: center;
+    background-color: #cef5ea;
+    padding: 30px;
+    border-radius: 12px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 28px;
+    background-color: #2a8671;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #10d8a9;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f5ad;
+    color: #555;
+  }

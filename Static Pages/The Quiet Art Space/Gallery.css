@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .main-header {
+    background: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  
+  .art-section {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+  }
+  .scroll-gallery {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  .art-card {
+    min-width: 250px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .art-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    align-items: center;
+    
+  }
+  .art-card h3 {
+    padding: 15px;
+    margin: 0;
+    
+  }
+  
+  .artist-spotlight {
+    background: #e9f5ff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .artist-spotlight img {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    justify-content: right;
+  }
+  .artist-spotlight {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .artist-spotlight img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  
+  .artist-spotlight p {
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .artist-spotlight h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .philosophy {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+ 
+  
+  .exhibitions {
+    background: #f3f3f3;
+    padding: 40px 20px;
+  }
+  .exhibitions ul {
+    list-style: none;
+    padding: 0;
+  }
+  .exhibitions li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .newsletter {
+    background: #ddd;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .newsletter button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }

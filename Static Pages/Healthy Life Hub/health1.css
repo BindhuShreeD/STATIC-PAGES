@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background: #003d5b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #65daa9, #0a9396);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeInDown 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeInDown {
+    from { transform: translateY(-40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .info-section {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+  
+  .info-section img {
+    width: 300px;
+    height: 200px;
+
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .info-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .info-section div {
+    flex: 1;
+  }
+  
+  .faq-section {
+    background: #edf6f9;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .faq-section details {
+    margin-bottom: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .values-section {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .value-card {
+    background: #8cf1d0;
+    color: #073b4c;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    background: #003d5b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
